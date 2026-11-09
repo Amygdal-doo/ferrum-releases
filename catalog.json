@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "apps": [
+    {
+      "id": "ide",
+      "status": "alpha",
+      "summary": "Fast, native code editor: an early fork of Zed with privacy-friendly defaults.",
+      "highlights": [
+        "Tracks upstream Zed closely; Ferrum changes are branding, packaging and defaults",
+        "Telemetry, crash reporting and auto-update are off by default",
+        "GPU-accelerated editing on GPUI"
+      ],
+      "roadmap": [
+        "First official Ferrum IDE builds",
+        "Shared Ferrum theme and toolbox integration"
+      ],
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrum-ide"
+    },
+    {
+      "id": "api",
+      "status": "in-development",
+      "summary": "Local-first, Postman-style API client. No backend, no account, no webview.",
+      "highlights": [
+        "Send any HTTP method with raw, form, multipart and binary bodies",
+        "Basic, Bearer and API key auth with {{variable}} environments",
+        "Collections, history, Postman v2.1 and cURL import, code generation"
+      ],
+      "roadmap": [
+        "OAuth 1/2, Digest and AWS auth",
+        "Pre-request and test scripts",
+        "Hands-on QA of the GPUI interface"
+      ],
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrumapi"
+    },
+    {
+      "id": "git",
+      "status": "in-development",
+      "summary": "Local-first Git client with a commit graph and per-project SSH profiles.",
+      "highlights": [
+        "Virtualized commit graph with branches, merges and ref badges",
+        "Stage, unstage and discard files, hunks and lines",
+        "Profiles bind a commit identity and SSH key to each repository"
+      ],
+      "roadmap": [
+        "Hands-on QA of the GPUI interface",
+        "Interactive rebase and conflict resolution"
+      ],
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrumgit"
+    },
+    {
+      "id": "data",
+      "status": "alpha",
+      "summary": "Local-first, DataGrip-class database IDE. PostgreSQL today.",
+      "highlights": [
+        "PostgreSQL profiles with TLS, environment tags and read-only sessions",
+        "Streaming query execution with cancel and a virtualized result grid",
+        "Passwords stay in the OS keychain"
+      ],
+      "roadmap": [
+        "Row editing, query history and CSV/JSON export",
+        "MySQL and SQLite adapters",
+        "Syntax highlighting and autocomplete"
+      ],
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrumdata"
+    },
+    {
+      "id": "term",
+      "status": "in-development",
+      "summary": "GPU terminal for humans and AI agents, with persistent server-side sessions.",
+      "highlights": [
+        "Sessions, windows and split panes live in a server and survive closing the window",
+        "fterm CLI and tmux-style attach over SSH",
+        "Agent status, waits and notifications for Claude Code and Codex"
+      ],
+      "roadmap": [
+        "Visual QA of the GPUI window",
+        "Windows support (the server uses Unix sockets today)"
+      ],
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrumterm"
+    },
+    {
+      "id": "toolbox",
+      "status": "alpha",
+      "summary": "Installs, updates, rolls back and launches every Ferrum app.",
+      "highlights": [
+        "Every version comes from GitHub Releases, with checksums verified",
+        "Stable and Beta update channels per app",
+        "Keeps several versions so you can switch back in one click"
+      ],
+      "roadmap": [
+        "Self-update that restarts into the new version",
+        "Signed and notarized builds"
+      ],
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrum-toolbox"
+    }
+  ]
+}
