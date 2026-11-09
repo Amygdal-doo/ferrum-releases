@@ -4,77 +4,75 @@
     {
       "id": "ide",
       "status": "alpha",
-      "summary": "Fast, native code editor: an early fork of Zed with privacy-friendly defaults.",
+      "summary": "Fast, native code editor: a fork of Zed with an agents sidebar and the Ferrum theme.",
       "highlights": [
-        "Tracks upstream Zed closely; Ferrum changes are branding, packaging and defaults",
-        "Telemetry, crash reporting and auto-update are off by default",
-        "GPU-accelerated editing on GPUI"
+        "Agent threads sidebar, open by default",
+        "Opens FerrumGIT, FerrumTerm, FerrumData and FerrumAPI from the editor",
+        "Ferrum Dark and Light themes; telemetry and auto-update off"
       ],
       "roadmap": [
-        "First official Ferrum IDE builds",
-        "Shared Ferrum theme and toolbox integration"
+        "Signed and notarized builds",
+        "Deeper suite integration"
       ],
       "homepage": "https://ferrum-web-production.up.railway.app/ferrum-ide"
     },
     {
       "id": "api",
-      "status": "in-development",
+      "status": "alpha",
       "summary": "Local-first, Postman-style API client. No backend, no account, no webview.",
       "highlights": [
-        "Send any HTTP method with raw, form, multipart and binary bodies",
-        "Basic, Bearer and API key auth with {{variable}} environments",
-        "Collections, history, Postman v2.1 and cURL import, code generation"
+        "Collections, environments, Postman and cURL import, code generation",
+        "Collection runner with pass/fail per request",
+        "Cookie jar, response search and JSON colouring"
       ],
       "roadmap": [
         "OAuth 1/2, Digest and AWS auth",
-        "Pre-request and test scripts",
-        "Hands-on QA of the GPUI interface"
+        "Pre-request and test scripts"
       ],
       "homepage": "https://ferrum-web-production.up.railway.app/ferrumapi"
     },
     {
       "id": "git",
-      "status": "in-development",
+      "status": "alpha",
       "summary": "Local-first Git client with a commit graph and per-project SSH profiles.",
       "highlights": [
-        "Virtualized commit graph with branches, merges and ref badges",
-        "Stage, unstage and discard files, hunks and lines",
-        "Profiles bind a commit identity and SSH key to each repository"
+        "Virtualized commit graph with search across commits",
+        "File history, blame and side-by-side diffs",
+        "Undo for commit, amend and checkout; per-project SSH profiles"
       ],
       "roadmap": [
-        "Hands-on QA of the GPUI interface",
-        "Interactive rebase and conflict resolution"
+        "Interactive rebase",
+        "GitHub and GitLab pull requests"
       ],
       "homepage": "https://ferrum-web-production.up.railway.app/ferrumgit"
     },
     {
       "id": "data",
       "status": "alpha",
-      "summary": "Local-first, DataGrip-class database IDE. PostgreSQL today.",
+      "summary": "Local-first database IDE for PostgreSQL, MySQL, SQLite, SurrealDB and MongoDB.",
       "highlights": [
-        "PostgreSQL profiles with TLS, environment tags and read-only sessions",
-        "Streaming query execution with cancel and a virtualized result grid",
-        "Passwords stay in the OS keychain"
+        "Five engines with read-only sessions and keychain passwords",
+        "Query history, CSV/JSON export and sortable, resizable grid",
+        "Column and index details for SQL tables"
       ],
       "roadmap": [
-        "Row editing, query history and CSV/JSON export",
-        "MySQL and SQLite adapters",
-        "Syntax highlighting and autocomplete"
+        "Row editing",
+        "Autocomplete and syntax highlighting"
       ],
       "homepage": "https://ferrum-web-production.up.railway.app/ferrumdata"
     },
     {
       "id": "term",
-      "status": "in-development",
+      "status": "alpha",
       "summary": "GPU terminal for humans and AI agents, with persistent server-side sessions.",
       "highlights": [
-        "Sessions, windows and split panes live in a server and survive closing the window",
-        "fterm CLI and tmux-style attach over SSH",
-        "Agent status, waits and notifications for Claude Code and Codex"
+        "Terminals live in a server: close the window, programs keep running",
+        "Sidebar with agents (Claude Code, Codex) and their live status",
+        "Start an agent in a new tab from the sidebar; mouse selection and copy"
       ],
       "roadmap": [
-        "Visual QA of the GPUI window",
-        "Windows support (the server uses Unix sockets today)"
+        "Search in the scrollback",
+        "Themes and a config file"
       ],
       "homepage": "https://ferrum-web-production.up.railway.app/ferrumterm"
     },
