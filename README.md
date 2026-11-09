@@ -14,13 +14,12 @@ curl -fsSL https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/in
 ```
 
 It installs the newest Ferrum Toolbox into Applications and opens it.
-Downloads made this way aren't quarantined, so macOS doesn't show the
-"could not verify" warning that the not-yet-notarized builds get when
-downloaded in a browser.
-
 Or download `FerrumToolbox-<version>-aarch64.dmg` from the newest
-`toolbox-v…` release and drag **Ferrum Toolbox** to **Applications**. Then
-on first launch: **System Settings → Privacy & Security → Open Anyway**.
+`toolbox-v…` release and drag **Ferrum Toolbox** to **Applications**.
+
+Every app is signed with the AMYGDAL d.o.o. Sarajevo Developer ID and
+notarized by Apple (from `toolbox-v0.5.0` and the `-alpha.1` releases on),
+so macOS opens them without a warning.
 
 Then install the apps you want from the toolbox: Ferrum IDE, FerrumAPI,
 FerrumGIT, FerrumData and FerrumTerm.
