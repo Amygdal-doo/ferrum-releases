@@ -21,7 +21,7 @@ Every app is signed with the AMYGDAL d.o.o. Sarajevo Developer ID and
 notarized by Apple, so macOS opens them without a warning.
 
 Then install the apps you want from the launcher: Ferrum IDE, FerrumAPI,
-FerrumGIT, FerrumData, FerrumTerm, FerrumKit and FerrumDock. New apps show
+FerrumGIT, FerrumData, FerrumTerm, FerrumKit, FerrumDock and Ferrum Editor. New apps show
 up in the launcher on their own.
 
 The launcher keeps every app up to date, including itself. No GitHub account
