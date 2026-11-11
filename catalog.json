@@ -16,7 +16,9 @@
       "highlights": [
         "Tree view, tabs, split panes, fuzzy file finder and command palette",
         "Multi-cursor editing, find and replace, find in files, tree-sitter highlighting",
-        "Config, keymap, theme and snippets in plain TOML, applied live"
+        "Config, keymap, theme and snippets in plain TOML, applied live",
+        "CI page: GitHub Actions runs, job logs, workflow dispatch and PR checks",
+        "Logs page: live logs of the project's files, dev servers and containers"
       ],
       "roadmap": [
         "Packages and plugins",
@@ -168,6 +170,52 @@
       "homepage": "https://ferrum-web-production.up.railway.app/ferrumdock"
     },
     {
+      "id": "ports",
+      "name": "FerrumPorts",
+      "status": "alpha",
+      "summary": "See which process is on port 3000, and stop it, without lsof.",
+      "description": "Listening ports and the processes behind them: open, inspect or stop them.",
+      "binary": "ferrumports",
+      "extra_binaries": [],
+      "bundle_name": "FerrumPorts",
+      "icon": "Server",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/ports.png",
+      "order": 80,
+      "highlights": [
+        "Every listening port with its process, command and project",
+        "Open in the browser, copy, or stop a process safely",
+        "Free-port check and well-known port hints"
+      ],
+      "roadmap": [
+        "Remote hosts over SSH",
+        "Port forwarding"
+      ],
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrumports"
+    },
+    {
+      "id": "env",
+      "name": "FerrumEnv",
+      "status": "alpha",
+      "summary": "A password-locked vault for your projects' .env files, shared encrypted between developers.",
+      "description": "Password-locked vault for project environment variables, shared encrypted between developers.",
+      "binary": "ferrumenv",
+      "extra_binaries": [],
+      "bundle_name": "FerrumEnv",
+      "icon": "Lock",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/env.png",
+      "order": 90,
+      "highlights": [
+        "Projects, environments and variables behind a master password, locked after 30 minutes",
+        "Encrypt a project's whole env with its team key and send it; teammates decrypt with the same key",
+        "Import and write .env files, and compare environments"
+      ],
+      "roadmap": [
+        "Team members' public keys",
+        "Sync from a shared folder"
+      ],
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrumenv"
+    },
+    {
       "id": "launcher",
       "name": "Ferrum Launcher",
       "status": "alpha",
@@ -185,8 +233,8 @@
         "Keeps several versions so you can switch back in one click"
       ],
       "roadmap": [
-        "Self-update that restarts into the new version",
-        "Signed and notarized builds"
+        "Windows and Linux installers",
+        "Release notes inside the launcher"
       ],
       "homepage": "https://ferrum-web-production.up.railway.app/ferrum-launcher"
     }
