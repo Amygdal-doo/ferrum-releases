@@ -147,13 +147,14 @@
     },
     {
       "id": "dock",
-      "name": "FerrumDock",
+      "name": "FerrumContainers",
       "status": "alpha",
       "summary": "Native container manager for Docker Desktop, OrbStack and Colima, and Podman via DOCKER_HOST.",
       "description": "Container manager for Docker, OrbStack, Colima and Podman engines.",
       "binary": "ferrumdock",
       "extra_binaries": [],
-      "bundle_name": "FerrumDock",
+      "bundle_name": "FerrumContainers",
+      "former_names": ["FerrumDock"],
       "icon": "Blocks",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/dock.png",
       "order": 70,
@@ -167,7 +168,7 @@
         "Docker contexts",
         "Container file browser"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumdock"
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrumcontainers"
     },
     {
       "id": "ports",
