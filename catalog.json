@@ -2,26 +2,28 @@
   "version": 1,
   "apps": [
     {
-      "id": "ide",
-      "name": "FerrumIDE",
+      "id": "editor",
+      "name": "Ferrum Editor",
       "status": "alpha",
-      "summary": "Fast, native code editor: a fork of Zed with an agents sidebar and the Ferrum theme.",
-      "description": "Code editor and IDE built on the Zed codebase.",
-      "binary": "zed",
+      "summary": "A small, hackable text editor in the spirit of Atom, written from scratch in Rust.",
+      "description": "Lightweight, hackable text editor: tree view, tabs, fuzzy finder and command palette.",
+      "binary": "ferrumeditor",
       "extra_binaries": [],
-      "bundle_name": "Ferrum IDE",
-      "icon": "Code",
-      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/ide.png",
+      "bundle_name": "Ferrum Editor",
+      "icon": "CursorIBeam",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/editor.png",
       "order": 10,
       "highlights": [
-        "Agent threads sidebar, open by default",
-        "Opens every Ferrum app from the editor, now including FerrumKit and FerrumDock",
-        "Ferrum Dark and Light themes; telemetry and auto-update off"
+        "Tree view, tabs, split panes, fuzzy file finder and command palette",
+        "Multi-cursor editing, find and replace, find in files, tree-sitter highlighting",
+        "Config, keymap, theme and snippets in plain TOML, applied live"
       ],
       "roadmap": [
-        "Deeper suite integration"
+        "Packages and plugins",
+        "Autocomplete and code folding",
+        "Multiple windows"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrum-ide"
+      "homepage": "https://ferrum-web-production.up.railway.app/ferrum-editor"
     },
     {
       "id": "api",
@@ -164,30 +166,6 @@
         "Container file browser"
       ],
       "homepage": "https://ferrum-web-production.up.railway.app/ferrumdock"
-    },
-    {
-      "id": "editor",
-      "name": "Ferrum Editor",
-      "status": "alpha",
-      "summary": "A small, hackable text editor in the spirit of Atom, written from scratch in Rust.",
-      "description": "Lightweight, hackable text editor: tree view, tabs, fuzzy finder and command palette.",
-      "binary": "ferrumeditor",
-      "extra_binaries": [],
-      "bundle_name": "Ferrum Editor",
-      "icon": "CursorIBeam",
-      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/editor.png",
-      "order": 80,
-      "highlights": [
-        "Tree view, tabs, split panes, fuzzy file finder and command palette",
-        "Multi-cursor editing, find and replace, find in files, tree-sitter highlighting",
-        "Config, keymap, theme and snippets in plain TOML, applied live"
-      ],
-      "roadmap": [
-        "Packages and plugins",
-        "Autocomplete and code folding",
-        "Multiple windows"
-      ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrum-editor"
     },
     {
       "id": "launcher",

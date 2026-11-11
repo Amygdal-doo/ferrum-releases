@@ -20,9 +20,12 @@ Or download `FerrumLauncher-<version>-aarch64.dmg` from the newest
 Every app is signed with the AMYGDAL d.o.o. Sarajevo Developer ID and
 notarized by Apple, so macOS opens them without a warning.
 
-Then install the apps you want from the launcher: Ferrum IDE, FerrumAPI,
-FerrumGIT, FerrumData, FerrumTerm, FerrumKit, FerrumDock and Ferrum Editor. New apps show
+Then install the apps you want from the launcher: Ferrum Editor, FerrumAPI,
+FerrumGIT, FerrumData, FerrumTerm, FerrumKit and FerrumDock. New apps show
 up in the launcher on their own.
+
+Ferrum IDE is no longer offered; Ferrum Editor is the suite's code editor. Its old
+`ide-v…` releases stay here for reference.
 
 The launcher keeps every app up to date, including itself. No GitHub account
 is needed.
