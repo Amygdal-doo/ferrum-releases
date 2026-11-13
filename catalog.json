@@ -28,6 +28,32 @@
       "homepage": "https://tryferrum.dev/ferrum-editor"
     },
     {
+      "id": "agentic",
+      "name": "FerrumAgentic",
+      "status": "alpha",
+      "summary": "An agentic-development window: FerrumChat, FerrumGIT and FerrumTerm side by side on one project.",
+      "description": "Agentic development window: FerrumChat, FerrumGIT and FerrumTerm side by side.",
+      "binary": "ferrumagentic",
+      "extra_binaries": [],
+      "bundle_name": "FerrumAgentic",
+      "icon": "Sparkle",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/agentic.png",
+      "order": 15,
+      "highlights": [
+        "FerrumChat, FerrumGIT and FerrumTerm in three columns on the same project",
+        "Close, reopen, resize and reorder columns; the layout is saved per project",
+        "Run in terminal from the chat runs the command in the terminal column",
+        "Agent edits refresh the git column right away; files open in Ferrum Editor",
+        "Shared project bar with the switcher (⌥⌘O), and ferrumagentic <folder> from a shell"
+      ],
+      "roadmap": [
+        "Open files in an editor column inside the window",
+        "Several chats per project",
+        "Agent checkpoints shown in the git history"
+      ],
+      "homepage": "https://tryferrum.dev/ferrumagentic"
+    },
+    {
       "id": "api",
       "name": "FerrumAPI",
       "status": "alpha",
@@ -154,7 +180,9 @@
       "binary": "ferrumdock",
       "extra_binaries": [],
       "bundle_name": "FerrumContainers",
-      "former_names": ["FerrumDock"],
+      "former_names": [
+        "FerrumDock"
+      ],
       "icon": "Blocks",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/dock.png",
       "order": 70,
