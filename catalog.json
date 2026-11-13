@@ -25,7 +25,7 @@
         "Autocomplete and code folding",
         "Multiple windows"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrum-editor"
+      "homepage": "https://tryferrum.dev/ferrum-editor"
     },
     {
       "id": "api",
@@ -49,7 +49,7 @@
         "Pre-request and test scripts",
         "HTTPS and templated mocks"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumapi"
+      "homepage": "https://tryferrum.dev/ferrumapi"
     },
     {
       "id": "git",
@@ -72,7 +72,7 @@
         "Interactive rebase",
         "Inline review comments"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumgit"
+      "homepage": "https://tryferrum.dev/ferrumgit"
     },
     {
       "id": "data",
@@ -95,7 +95,7 @@
         "Row editing",
         "Autocomplete and syntax highlighting"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumdata"
+      "homepage": "https://tryferrum.dev/ferrumdata"
     },
     {
       "id": "term",
@@ -120,7 +120,7 @@
         "Search in the scrollback",
         "Themes and a config file"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumterm"
+      "homepage": "https://tryferrum.dev/ferrumterm"
     },
     {
       "id": "kit",
@@ -143,7 +143,7 @@
         "Saved inputs",
         "Wrapping for long lines"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumkit"
+      "homepage": "https://tryferrum.dev/ferrumkit"
     },
     {
       "id": "dock",
@@ -168,7 +168,7 @@
         "Docker contexts",
         "Container file browser"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumcontainers"
+      "homepage": "https://tryferrum.dev/ferrumcontainers"
     },
     {
       "id": "ports",
@@ -191,7 +191,7 @@
         "Remote hosts over SSH",
         "Port forwarding"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumports"
+      "homepage": "https://tryferrum.dev/ferrumports"
     },
     {
       "id": "env",
@@ -214,7 +214,7 @@
         "Team members' public keys",
         "Sync from a shared folder"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrumenv"
+      "homepage": "https://tryferrum.dev/ferrumenv"
     },
     {
       "id": "launcher",
@@ -237,7 +237,7 @@
         "Windows and Linux installers",
         "Release notes inside the launcher"
       ],
-      "homepage": "https://ferrum-web-production.up.railway.app/ferrum-launcher"
+      "homepage": "https://tryferrum.dev/ferrum-launcher"
     }
   ]
 }
