@@ -28,30 +28,58 @@
       "homepage": "https://tryferrum.dev/ferrum-editor"
     },
     {
-      "id": "agentic",
-      "name": "FerrumAgentic",
+      "id": "vibe",
+      "name": "FerrumVibe",
       "status": "alpha",
-      "summary": "An agentic-development window: FerrumChat, FerrumGIT and FerrumTerm side by side on one project.",
-      "description": "Agentic development window: FerrumChat, FerrumGIT and FerrumTerm side by side.",
-      "binary": "ferrumagentic",
+      "summary": "A vibe-coding window: FerrumChat, FerrumGIT and FerrumTerm side by side on one project.",
+      "description": "Vibe coding window: FerrumChat, FerrumGIT and FerrumTerm side by side.",
+      "binary": "ferrumvibe",
       "extra_binaries": [],
-      "bundle_name": "FerrumAgentic",
+      "bundle_name": "FerrumVibe",
       "icon": "Sparkle",
-      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/agentic.png",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/vibe.png",
       "order": 15,
       "highlights": [
         "FerrumChat, FerrumGIT and FerrumTerm in three columns on the same project",
         "Close, reopen, resize and reorder columns; the layout is saved per project",
         "Run in terminal from the chat runs the command in the terminal column",
         "Agent edits refresh the git column right away; files open in Ferrum Editor",
-        "Shared project bar with the switcher (⌥⌘O), and ferrumagentic <folder> from a shell"
+        "Shared project bar with the switcher (⌥⌘O), and ferrumvibe <folder> from a shell"
       ],
       "roadmap": [
         "Open files in an editor column inside the window",
         "Several chats per project",
         "Agent checkpoints shown in the git history"
       ],
-      "homepage": "https://tryferrum.dev/ferrumagentic"
+      "homepage": "https://tryferrum.dev/ferrumvibe",
+      "former_names": [
+        "FerrumAgentic"
+      ]
+    },
+    {
+      "id": "system",
+      "name": "Ferrum System",
+      "status": "alpha",
+      "summary": "Design a system's architecture: layers, services on any cloud, data, flows and live pods.",
+      "description": "System architecture diagrams: layers, services on any cloud, data, flows and live pods.",
+      "binary": "ferrumsystem",
+      "extra_binaries": [],
+      "bundle_name": "Ferrum System",
+      "icon": "Blocks",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/system.png",
+      "order": 17,
+      "highlights": [
+        "A project's architecture in .architecture/: layers, components, connections, APIs, sockets, data, flows",
+        "Service names for Generic, AWS, Azure, GCP, Hetzner, DigitalOcean and open source",
+        "Double-click a database for its tables; walk through flows step by step",
+        "Live Kubernetes pods and Docker containers next to the components they run",
+        "Three demos: core banking, a private RAG on Ollama, live delivery tracking"
+      ],
+      "roadmap": [
+        "Remote hosts over SSH",
+        "Port forwarding"
+      ],
+      "homepage": "https://tryferrum.dev/ferrum-system"
     },
     {
       "id": "api",
