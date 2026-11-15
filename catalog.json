@@ -13,6 +13,7 @@
       "icon": "CursorIBeam",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/editor.png",
       "order": 10,
+      "group": "apps",
       "highlights": [
         "Tree view, tabs, split panes, fuzzy file finder and command palette",
         "Multi-cursor editing, find and replace, find in files, tree-sitter highlighting",
@@ -42,6 +43,7 @@
       "icon": "Sparkle",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/vibe.png",
       "order": 15,
+      "group": "apps",
       "highlights": [
         "FerrumChat, FerrumGIT and FerrumTerm in three columns on the same project",
         "Close, reopen, resize and reorder columns; the layout is saved per project",
@@ -61,55 +63,6 @@
       ]
     },
     {
-      "id": "system",
-      "name": "Ferrum System",
-      "status": "alpha",
-      "summary": "Design a system's architecture: layers, services on any cloud, data, flows and live pods.",
-      "description": "System architecture diagrams: layers, services on any cloud, data, flows and live pods.",
-      "binary": "ferrumsystem",
-      "extra_binaries": [],
-      "bundle_name": "Ferrum System",
-      "icon": "Blocks",
-      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/system.png",
-      "order": 17,
-      "highlights": [
-        "A project's architecture in .architecture/: layers, components, connections, APIs, sockets, data, flows",
-        "Service names for Generic, AWS, Azure, GCP, Hetzner, DigitalOcean and open source",
-        "Double-click a database for its tables; walk through flows step by step",
-        "Live Kubernetes pods and Docker containers next to the components they run",
-        "Three demos: core banking, a private RAG on Ollama, live delivery tracking"
-      ],
-      "roadmap": [
-        "Remote hosts over SSH",
-        "Port forwarding"
-      ],
-      "homepage": "https://tryferrum.dev/ferrum-system"
-    },
-    {
-      "id": "api",
-      "name": "FerrumAPI",
-      "status": "alpha",
-      "summary": "Local-first, Postman-style API client. No backend, no account, no webview.",
-      "description": "HTTP/API client: collections, environments, history and code generation.",
-      "binary": "ferrumapi",
-      "extra_binaries": [],
-      "bundle_name": "FerrumAPI",
-      "icon": "Public",
-      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/api.png",
-      "order": 20,
-      "highlights": [
-        "Local mock server per collection",
-        "Webhook inspector with replay",
-        "Load test with p50/p90/p99 latency"
-      ],
-      "roadmap": [
-        "OAuth 1/2, Digest and AWS auth",
-        "Pre-request and test scripts",
-        "HTTPS and templated mocks"
-      ],
-      "homepage": "https://tryferrum.dev/ferrumapi"
-    },
-    {
       "id": "git",
       "name": "FerrumGIT",
       "status": "alpha",
@@ -120,7 +73,8 @@
       "bundle_name": "FerrumGIT",
       "icon": "GitBranch",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/git.png",
-      "order": 30,
+      "order": 20,
+      "group": "apps",
       "highlights": [
         "GitHub and GitLab pull requests: review, checkout, create, merge",
         "File history, blame and side-by-side diffs",
@@ -131,29 +85,6 @@
         "Inline review comments"
       ],
       "homepage": "https://tryferrum.dev/ferrumgit"
-    },
-    {
-      "id": "data",
-      "name": "FerrumData",
-      "status": "alpha",
-      "summary": "Local-first database IDE for PostgreSQL, MySQL, SQLite, SurrealDB, MongoDB and Redis.",
-      "description": "Database IDE: connections, SQL editor and result grid.",
-      "binary": "ferrumdata",
-      "extra_binaries": [],
-      "bundle_name": "FerrumData",
-      "icon": "DatabaseZap",
-      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/data.png",
-      "order": 40,
-      "highlights": [
-        "Redis key browser, value viewer and command console",
-        "Query history, CSV/JSON export and sortable, resizable grid",
-        "Column and index details for SQL tables"
-      ],
-      "roadmap": [
-        "Row editing",
-        "Autocomplete and syntax highlighting"
-      ],
-      "homepage": "https://tryferrum.dev/ferrumdata"
     },
     {
       "id": "term",
@@ -168,7 +99,8 @@
       "bundle_name": "FerrumTerm",
       "icon": "Terminal",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/term.png",
-      "order": 50,
+      "order": 30,
+      "group": "apps",
       "highlights": [
         "Saved SSH hosts and ~/.ssh/config hosts in one click",
         "Port forwards that keep running, and what's using a port",
@@ -181,27 +113,29 @@
       "homepage": "https://tryferrum.dev/ferrumterm"
     },
     {
-      "id": "kit",
-      "name": "FerrumKit",
+      "id": "api",
+      "name": "FerrumAPI",
       "status": "alpha",
-      "summary": "Everyday developer utilities in one native window: no websites, nothing leaves your Mac.",
-      "description": "Developer utilities: JSON, Base64, JWT, regex, timestamps, hashes and more.",
-      "binary": "ferrumkit",
+      "summary": "Local-first, Postman-style API client. No backend, no account, no webview.",
+      "description": "HTTP/API client: collections, environments, history and code generation.",
+      "binary": "ferrumapi",
       "extra_binaries": [],
-      "bundle_name": "FerrumKit",
-      "icon": "ToolHammer",
-      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/kit.png",
-      "order": 60,
+      "bundle_name": "FerrumAPI",
+      "icon": "Public",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/api.png",
+      "order": 40,
+      "group": "apps",
       "highlights": [
-        "JSON, YAML and TOML formatting, validation and conversion",
-        "JWT decoder, Base64, URL, hashes, UUID/ULID and timestamps",
-        "Regex tester, text diff, case and line tools"
+        "Local mock server per collection",
+        "Webhook inspector with replay",
+        "Load test with p50/p90/p99 latency"
       ],
       "roadmap": [
-        "Saved inputs",
-        "Wrapping for long lines"
+        "OAuth 1/2, Digest and AWS auth",
+        "Pre-request and test scripts",
+        "HTTPS and templated mocks"
       ],
-      "homepage": "https://tryferrum.dev/ferrumkit"
+      "homepage": "https://tryferrum.dev/ferrumapi"
     },
     {
       "id": "dock",
@@ -217,7 +151,8 @@
       ],
       "icon": "Blocks",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/dock.png",
-      "order": 70,
+      "order": 50,
+      "group": "apps",
       "highlights": [
         "Containers grouped by Compose project, with live CPU and memory",
         "Live logs, inspect, and a shell in FerrumTerm",
@@ -231,27 +166,28 @@
       "homepage": "https://tryferrum.dev/ferrumcontainers"
     },
     {
-      "id": "ports",
-      "name": "FerrumPorts",
+      "id": "data",
+      "name": "FerrumData",
       "status": "alpha",
-      "summary": "See which process is on port 3000, and stop it, without lsof.",
-      "description": "Listening ports and the processes behind them: open, inspect or stop them.",
-      "binary": "ferrumports",
+      "summary": "Local-first database IDE for PostgreSQL, MySQL, SQLite, SurrealDB, MongoDB and Redis.",
+      "description": "Database IDE: connections, SQL editor and result grid.",
+      "binary": "ferrumdata",
       "extra_binaries": [],
-      "bundle_name": "FerrumPorts",
-      "icon": "Server",
-      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/ports.png",
-      "order": 80,
+      "bundle_name": "FerrumData",
+      "icon": "DatabaseZap",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/data.png",
+      "order": 60,
+      "group": "apps",
       "highlights": [
-        "Every listening port with its process, command and project",
-        "Open in the browser, copy, or stop a process safely",
-        "Free-port check and well-known port hints"
+        "Redis key browser, value viewer and command console",
+        "Query history, CSV/JSON export and sortable, resizable grid",
+        "Column and index details for SQL tables"
       ],
       "roadmap": [
-        "Remote hosts over SSH",
-        "Port forwarding"
+        "Row editing",
+        "Autocomplete and syntax highlighting"
       ],
-      "homepage": "https://tryferrum.dev/ferrumports"
+      "homepage": "https://tryferrum.dev/ferrumdata"
     },
     {
       "id": "env",
@@ -264,7 +200,8 @@
       "bundle_name": "FerrumVariables",
       "icon": "Lock",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/env.png",
-      "order": 90,
+      "order": 70,
+      "group": "tools",
       "highlights": [
         "Projects, environments and variables behind a master password, locked after 30 minutes",
         "Encrypt a project's whole env with its team key and send it; teammates decrypt with the same key",
@@ -280,17 +217,95 @@
       ]
     },
     {
+      "id": "ports",
+      "name": "FerrumPorts",
+      "status": "alpha",
+      "summary": "See which process is on port 3000, and stop it, without lsof.",
+      "description": "Listening ports and the processes behind them: open, inspect or stop them.",
+      "binary": "ferrumports",
+      "extra_binaries": [],
+      "bundle_name": "FerrumPorts",
+      "icon": "Server",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/ports.png",
+      "order": 80,
+      "group": "tools",
+      "highlights": [
+        "Every listening port with its process, command and project",
+        "Open in the browser, copy, or stop a process safely",
+        "Free-port check and well-known port hints"
+      ],
+      "roadmap": [
+        "Remote hosts over SSH",
+        "Port forwarding"
+      ],
+      "homepage": "https://tryferrum.dev/ferrumports"
+    },
+    {
+      "id": "kit",
+      "name": "FerrumKit",
+      "status": "alpha",
+      "summary": "Everyday developer utilities in one native window: no websites, nothing leaves your Mac.",
+      "description": "Developer utilities: JSON, Base64, JWT, regex, timestamps, hashes and more.",
+      "binary": "ferrumkit",
+      "extra_binaries": [],
+      "bundle_name": "FerrumKit",
+      "icon": "ToolHammer",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/kit.png",
+      "order": 90,
+      "group": "tools",
+      "highlights": [
+        "JSON, YAML and TOML formatting, validation and conversion",
+        "JWT decoder, Base64, URL, hashes, UUID/ULID and timestamps",
+        "Regex tester, text diff, case and line tools"
+      ],
+      "roadmap": [
+        "Saved inputs",
+        "Wrapping for long lines"
+      ],
+      "homepage": "https://tryferrum.dev/ferrumkit"
+    },
+    {
+      "id": "system",
+      "name": "FerrumSystem",
+      "status": "alpha",
+      "summary": "Design a system's architecture: layers, services on any cloud, data, flows and live pods.",
+      "description": "System architecture diagrams: layers, services on any cloud, data, flows and live pods.",
+      "binary": "ferrumsystem",
+      "extra_binaries": [],
+      "bundle_name": "FerrumSystem",
+      "icon": "Blocks",
+      "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/system.png",
+      "order": 100,
+      "group": "tools",
+      "highlights": [
+        "A project's architecture in .architecture/: layers, components, connections, APIs, sockets, data, flows",
+        "Service names for Generic, AWS, Azure, GCP, Hetzner, DigitalOcean and open source",
+        "Double-click a database for its tables; walk through flows step by step",
+        "Live Kubernetes pods and Docker containers next to the components they run",
+        "Three demos: core banking, a private RAG on Ollama, live delivery tracking"
+      ],
+      "roadmap": [
+        "Remote hosts over SSH",
+        "Port forwarding"
+      ],
+      "homepage": "https://tryferrum.dev/ferrum-system",
+      "former_names": [
+        "Ferrum System"
+      ]
+    },
+    {
       "id": "launcher",
-      "name": "Ferrum Launcher",
+      "name": "FerrumLauncher",
       "status": "alpha",
       "summary": "Installs, updates, rolls back and launches every Ferrum app.",
       "description": "Installs, updates and launches the Ferrum apps.",
       "binary": "ferrum-launcher",
       "extra_binaries": [],
-      "bundle_name": "Ferrum Launcher",
+      "bundle_name": "FerrumLauncher",
       "icon": "Box",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/launcher.png",
       "order": 1100,
+      "group": "tools",
       "highlights": [
         "Every version comes from GitHub Releases, with checksums verified",
         "Stable and Beta update channels per app",
@@ -300,7 +315,10 @@
         "Windows and Linux installers",
         "Release notes inside the launcher"
       ],
-      "homepage": "https://tryferrum.dev/ferrum-launcher"
+      "homepage": "https://tryferrum.dev/ferrum-launcher",
+      "former_names": [
+        "Ferrum Launcher"
+      ]
     }
   ]
 }
