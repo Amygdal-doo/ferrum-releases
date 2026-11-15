@@ -3,13 +3,13 @@
   "apps": [
     {
       "id": "editor",
-      "name": "Ferrum Editor",
+      "name": "FerrumIDE",
       "status": "alpha",
       "summary": "A small, hackable text editor in the spirit of Atom, written from scratch in Rust.",
-      "description": "Lightweight, hackable text editor: tree view, tabs, fuzzy finder and command palette.",
+      "description": "Lightweight, hackable code editor: tree view, tabs, fuzzy finder and command palette.",
       "binary": "ferrumeditor",
       "extra_binaries": [],
-      "bundle_name": "Ferrum Editor",
+      "bundle_name": "FerrumIDE",
       "icon": "CursorIBeam",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/editor.png",
       "order": 10,
@@ -25,17 +25,20 @@
         "Autocomplete and code folding",
         "Multiple windows"
       ],
-      "homepage": "https://tryferrum.dev/ferrum-editor"
+      "homepage": "https://tryferrum.dev/ferrumide",
+      "former_names": [
+        "Ferrum Editor"
+      ]
     },
     {
       "id": "vibe",
-      "name": "FerrumVibe",
+      "name": "FerrumEngineer",
       "status": "alpha",
-      "summary": "A vibe-coding window: FerrumChat, FerrumGIT and FerrumTerm side by side on one project.",
-      "description": "Vibe coding window: FerrumChat, FerrumGIT and FerrumTerm side by side.",
+      "summary": "An agentic-engineering window: FerrumChat, FerrumGIT and FerrumTerm side by side on one project.",
+      "description": "Agentic engineering window: FerrumChat, FerrumGIT and FerrumTerm side by side.",
       "binary": "ferrumvibe",
       "extra_binaries": [],
-      "bundle_name": "FerrumVibe",
+      "bundle_name": "FerrumEngineer",
       "icon": "Sparkle",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/vibe.png",
       "order": 15,
@@ -43,7 +46,7 @@
         "FerrumChat, FerrumGIT and FerrumTerm in three columns on the same project",
         "Close, reopen, resize and reorder columns; the layout is saved per project",
         "Run in terminal from the chat runs the command in the terminal column",
-        "Agent edits refresh the git column right away; files open in Ferrum Editor",
+        "Agent edits refresh the git column right away; files open in FerrumIDE",
         "Shared project bar with the switcher (⌥⌘O), and ferrumvibe <folder> from a shell"
       ],
       "roadmap": [
@@ -51,8 +54,9 @@
         "Several chats per project",
         "Agent checkpoints shown in the git history"
       ],
-      "homepage": "https://tryferrum.dev/ferrumvibe",
+      "homepage": "https://tryferrum.dev/ferrumengineer",
       "former_names": [
+        "FerrumVibe",
         "FerrumAgentic"
       ]
     },
@@ -251,13 +255,13 @@
     },
     {
       "id": "env",
-      "name": "FerrumEnv",
+      "name": "FerrumVariables",
       "status": "alpha",
       "summary": "A password-locked vault for your projects' .env files, shared encrypted between developers.",
       "description": "Password-locked vault for project environment variables, shared encrypted between developers.",
       "binary": "ferrumenv",
       "extra_binaries": [],
-      "bundle_name": "FerrumEnv",
+      "bundle_name": "FerrumVariables",
       "icon": "Lock",
       "logo": "https://raw.githubusercontent.com/Amygdal-doo/ferrum-releases/main/logos/env.png",
       "order": 90,
@@ -270,7 +274,10 @@
         "Team members' public keys",
         "Sync from a shared folder"
       ],
-      "homepage": "https://tryferrum.dev/ferrumenv"
+      "homepage": "https://tryferrum.dev/ferrumvariables",
+      "former_names": [
+        "FerrumEnv"
+      ]
     },
     {
       "id": "launcher",
